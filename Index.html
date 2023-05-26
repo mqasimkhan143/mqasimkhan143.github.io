@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+       <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">My works</a></li>
+                    <li><a href="#">Contact me</a></li>
+                </ul>
+            </nav>
+            <div class="header">
+                <h3><u>Editor/Content creator</u></h3>
+                <h2>Hi, My name is<span> Muhammed Qasim Khan</span>, I am a video editor/photo editor<br> and i am closing in on 2 years of experience and have been a content creater<br> for more than 1 year and have multiple collaborations.</h2>
+            </div>
+       </div> 
+    </div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="About me.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1>About Me</h1>
+                <p>I am a student in Bath Spa University and almost 20 years of age, I am a Video/Photo editor with about 2 years of experience and i have done content creation for about over a year now with many collaborations.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Video Editing</span><br>Montages/Edits</li>
+                        <li><span>Photoshop</span><br>Thumbnail.Video use</li>
+                        <li><span>Content Creation</span><br>Youtube/Tiktok</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021 - Current</span><br>Youtube/Tiktok</li>
+                        <li><span>2021 - Current</span><br>Youtube/Tiktok</li>
+                        <li><span>2022 - Current</span><br>Youtube/Tiktok</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021</span><br>Youtube tutorials</li>
+                        <li><span>2021</span><br>Youtube tutorials</li>
+                        <li><span>2022</span><br>Self taught</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>     
+</body>
+</html>
