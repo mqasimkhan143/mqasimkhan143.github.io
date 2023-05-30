@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/85e17b6df6.js" crossorigin="anonymous"></script>   
+    <script src="https://kit.fontawesome.com/85e17b6df6.js" crossorigin="anonymous"></script><!--External Website For Icons-->
 </head>
 <body>
-    <div id="header">
+    <div id="header"><!--Main page-->
        <div class="container">
-            <nav>
+            <nav><!--Navigation Bar on the top-->
                 <img src="logo.png" class="logo">
                 <ul>
                     <li><a href="#header">Home</a></li>
@@ -21,13 +21,13 @@
                     <li><a href="#contact">Contact me</a></li>
                 </ul>
             </nav>
-            <div class="header">
+            <div class="header"><!--Introduction section-->
                 <h3><u>Editor/Content creator</u></h3>
                 <h2>Hi, My name is<span> Muhammed Qasim Khan</span>, I am a video editor/photo editor<br> and i am closing in on 2 years of experience and have been a content creater<br> for more than 1 year and have multiple collaborations.</h2>
             </div>
        </div> 
     </div>
-<div id="about">
+<div id="about"><!--About me Section-->
     <div class="container">
         <div class="row">
             <div class="about-col-1">
@@ -36,19 +36,19 @@
             <div class="about-col-2">
                 <h1>About Me</h1>
                 <p>I am a student in Bath Spa University and almost 20 years of age, I am a Video/Photo editor with about 2 years of experience and i have done content creation for about over a year now with many collaborations.</p>
-                <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <div class="tab-titles"><!--About my accomplishments-->
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p><!--Active tab-->
                     <p class="tab-links" onclick="opentab('experience')">Experience</p>
                     <p class="tab-links" onclick="opentab('education')">Education</p>
                 </div>
-                <div class="tab-contents active-tab" id="skills">
+                <div class="tab-contents active-tab" id="skills"><!--Active tab--><!--Using js for this section-->
                     <ul>
                         <li><span>Video Editing</span><br>Montages/Edits</li>
                         <li><span>Photoshop</span><br>Thumbnail.Video use</li>
                         <li><span>Content Creation</span><br>Youtube/Tiktok</li>
                     </ul>
                 </div>
-                <div class="tab-contents" id="experience">
+                <div class="tab-contents" id="experience"><!--The hidden 2 contents-->
                     <ul>
                         <li><span>2021 - Current</span><br>Youtube/Tiktok</li>
                         <li><span>2021 - Current</span><br>Youtube/Tiktok</li>
@@ -66,15 +66,15 @@
         </div>
     </div>
 </div>
-<div id="services">
+<div id="services"><!--Services-->
     <div class="container">
         <h1>My Services</h1>
         <div class="services-list">
             <div>
-                <i class="fa-solid fa-video"></i>
+                <i class="fa-solid fa-video"></i><!--these <i> are the extrnal file icons--><!--liner grid-->
                 <h2>Video Editing</h2>
                 <p>I can make you Videos for any type of content</p>
-                <a href="#">Learn more</a>
+                <a href="#">Learn more</a><!--Link hasnt been added due to it being an assessment-->
             </div>
             <div>
                 <i class="fa-sharp fa-solid fa-image"></i>
@@ -91,7 +91,7 @@
         </div>
     </div>
 </div>
-<div id="portfolio">
+<div id="portfolio"><!--Portfolio-->
     <div class="container">
         <h1>My Works</h1>
         <div class="work-list">
@@ -101,20 +101,20 @@
                     <h3>Video Editing</h3>
                     <p>Check my works in Video Editing on Youtube</p>
                     <a href="#"><i class="fa-solid fa-link-simple"></i></a>
-                    <h2><i class="fa-brands fa-youtube"></i></h2>
+                    <h2><i class="fa-brands fa-youtube"></i></h2><!--link isnt added now due to it being an assessment-->
                 </div>
             </div>
-            <div class="work">
+            <div class="work"><!--Same is applied for rest-->
                 <img src="igor-lypnytskyi-PobecUzsK4c-unsplash.jpg">
                 <div class="layer">
                     <h3>Photoshop</h3>
                     <p>Check my works in Photoshop on Youtube</p>
-                    <a href="#"><i class="fa-solid fa-link-simple"></i></a>
+                    <a href="#"><i class="fa-solid fa-link-simple"></i></a><!--External files--><!--Link isnt added-->
                     <h2><i class="fa-brands fa-youtube"></i></h2>
                 </div>
             </div>
             <div class="work">
-                <img src="harrison-kugler-YNIlpT-P68I-unsplash.jpg">
+                <img src="harrison-kugler-YNIlpT-P68I-unsplash.jpg"><!--same is applied-->
                 <div class="layer">
                     <h3>Content Creation</h3>
                     <p>Check my works on Youtube and Tiktok</p>
@@ -125,10 +125,10 @@
         </div>
     </div>
 </div>
-<div id="contact">
+<div id="contact"><!--Social links-->
     <h1>My Socials</h1>
     <div class="menu">
-        <a class="link" style="--color: #3b5998">
+        <a class="link" style="--color: #3b5998"><!--Color of the icons-->
           <i class="link-icon fa fa-facebook"></i>
             <span class="link-title">Facebook</span>
         </a>
@@ -150,6 +150,6 @@
         </a>
       </div>
 </div>
-<script src="script.js"></script>     
+<script src="script.js"></script><!--connecting js file-->     
 </body>
 </html>
