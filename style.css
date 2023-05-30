@@ -286,5 +286,6 @@ nav ul li a:hover::after{
     display: block;
     text-align: center;
     width: 100%;
+    margin-left: 10px;
   }
 
