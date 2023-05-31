@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav><!--Navigation Bar on the top-->
+        <img src="logo.png" class="logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About me</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">My works</a></li>
+            <li><a href="Contactme.html">Contact me</a></li>
+        </ul>
+    </nav>
+    <div id="about"><!--About me Section-->
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="About me.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1>About Me</h1>
+                    <p>I am a student in Bath Spa University and almost 20 years of age, I am a Video/Photo editor with about 2 years of experience and i have done content creation for about over a year now with many collaborations.</p>
+                    <div class="tab-titles"><!--About my accomplishments-->
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p><!--Active tab-->
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills"><!--Active tab--><!--Using js for this section-->
+                        <ul>
+                            <li><span>Video Editing</span><br>Montages/Edits</li>
+                            <li><span>Photoshop</span><br>Thumbnail.Video use</li>
+                            <li><span>Content Creation</span><br>Youtube/Tiktok</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience"><!--The hidden 2 contents-->
+                        <ul>
+                            <li><span>2021 - Current</span><br>Youtube/Tiktok</li>
+                            <li><span>2021 - Current</span><br>Youtube/Tiktok</li>
+                            <li><span>2022 - Current</span><br>Youtube/Tiktok</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 - 2022</span><br>PSA College</li>
+                            <li><span>2010 - 2020</span><br>Schools</li>
+                            <li><span>2022 - Current</span><br>Bath Spa University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script><!--connecting js file-->      
+</body>
+</html>
